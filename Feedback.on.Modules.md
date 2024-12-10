@@ -17,3 +17,10 @@ Magnus is asking around to have feedback on modules. This is an unfiltered log o
   * Module 8: Observability and Monitoring. Personally, I like that the module comes last and could connect the dots for everything.
 * Maybe add Governance and cost management? Or maybe they can be included somewhere.
 * On module 8... Please don't call monitoring observability.... And explain what true observability is (too many à-holes see monitoring as observability and thus only cover metrics).
+
+
+## Feedback from me
+* Diagrams are a big plus!
+* Add powershell to the prereqs installation steps for non Windows users.
+* Note in [module 0](./module-0-prerequisites-and-introduction/Readme.md) mentions needing to change the branch reference from master to `main`. Not needed anymore as workflows are manually triggered.
+* Provide sane default names and explain values in [Module 1 - Exercise 1](./module-1-azure-architecture-introduction/Exercise1.ps1) (botAPI, gameAPI etc...)
