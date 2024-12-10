@@ -25,6 +25,12 @@ you to use the portal to monitor your deployments at any point.
 
 The steps below with instructions correspond to the same steps in the [Exercise1.ps1](./Exercise1.ps1) script. Here you will find the commands to run in your terminal.
 
+## Architecture Diagram
+
+The diagram of the app with the deployed resources for this exercise is the following:
+
+![App Architecture Diagram](./images/Module1_Ex1.drawio.png)
+
 ## Step 1: Create the resource group and deploy the ARM
 
 1. Create your resource-group for APIs.

@@ -24,6 +24,14 @@ During this module you will also need the following PowerShell variables used pr
 - $smtp - connection string of your Azure Communication Service deployed in Module 2.
 - $senderDnR - your noreply email from the Email Communication Service Domain resource deployed in Module 2.
 
+## Architecture Diagram
+
+The diagram of the app with the deployed resources for this exercise is the following:
+
+![App Architecture Diagram](./images/Module4_Ex1.drawio.png)
+
+What's added here, is the Stats API, which will be connected to your APIM resource. It wil also use the Cosmos DB resource, but this time, not only for the dapr statestore, but for storing the statistics of the games played.
+
 ## Step 1: Deploy StatsAPI
 
 You need to deploy the new API and set the Connection String of the CosmosDB resource as an Environment Variable. You can set the cache duration as well.

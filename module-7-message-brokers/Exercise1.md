@@ -29,6 +29,14 @@ During this module you will also need the following PowerShell variables used pr
 - $senderDnR - your noreply email from the Email Communication Service Domain resource deployed in Module 2.
 - $ttl - time-to-live for your database documents.
 
+## Architecture Diagram
+
+The diagram of the app with the deployed resources for this exercise is the following:
+
+![App Architecture Diagram](./images/Module7_Ex1.drawio.png)
+
+Instead of using simple http requests to handle communication between the Game API and the Stats API, here we use the Topic-Subscription way that Azure Event Grid offers.
+
 ## Step 1: Deploy an Azure Event Grid Topic
 
 ### 1.1 Enable Event Grid resource provider for your subscription if it was not enabled before

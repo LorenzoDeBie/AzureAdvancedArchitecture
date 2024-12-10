@@ -20,6 +20,12 @@ During this module you will also need 3 of the PowerShell variables used previou
 - $apiResourceGroup - Name of the Resource Group in which you have your Container APIs and Static Web App, from the first region.
 - $managedEnvironment - Name of your Managed Environment for containers in the API Resource Group.
 
+## Architecture Diagram
+
+The diagram of the app with the deployed resources for this exercise is the following:
+
+![App Architecture Diagram](./images/Module6_Ex2.drawio.png)
+
 ## Step 1: Create a Storage Account and Update the Container App Environment
 
 ### 1.1 Create the storage account
@@ -30,14 +36,14 @@ During this module you will also need 3 of the PowerShell variables used previou
 
 ### 2.1. Using [Azure Portal](https://portal.azure.com/)
 
-- Go to your **Managed Environment** to set diagnostics for the whole thing.
+- Go to your **Container Apps Environment**.
 - Under the **Monitoring** section, click on **Diagnostic settings**.
 - Add a new diagnostic setting and configure it as follows:
   - Select **all log categories**.
   - Choose **Archive to a storage account**.
   - Select the storage account you created earlier.
 
-![Managed Environment diagnostics settings](../module-6-microservices-architecture/images/image3.png)
+![Container Apps Environment diagnostics settings](../module-6-microservices-architecture/images/image3.png)
 
 ### 2.1. View Your Logs
 

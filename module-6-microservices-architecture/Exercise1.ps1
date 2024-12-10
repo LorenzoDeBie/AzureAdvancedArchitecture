@@ -16,7 +16,7 @@ az keyvault create --name $keyVault --resource-group $kvResourceGroup
 
 # 2.1 Define your subscription information:
 
-#Your Subscription User Principal Name (UPN).
+#Your Subscription User Principal Name (UPN). (e.g., username@domain.com)
 #You can find this by opening Microsoft Entra ID in the Azure portal or by clicking on your profile picture in the top-right corner, under your name.
 #This UPN is required to assign your account the Key Vault Secrets Officer role.
 $subscriptionUPN = "<subscription-upn>"

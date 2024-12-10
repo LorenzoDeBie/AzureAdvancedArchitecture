@@ -17,6 +17,14 @@ For this exercise, you will need the following PowerShell variable used previous
 - $staticWebName - name of your Static Web App resource.
 - $APIM - name of your API Management deployed at Module 0.
 
+## Architecture Diagram
+
+The diagram of the app with the deployed resources for this exercise is the following:
+
+![App Architecture Diagram](./images/Module2_Ex2.drawio.png)
+
+Instead of using the Azure Front Door from Module 1, you will use an API Management Gateway for routing your traffic. This will not route it based on region, but based on the suffix that you'll set for each of the APIs. This will remove the need of multiple environment variables for your client app, as you will now use the shared gateway URL.
+
 ## Step 1: Redeploy the apps
 
 You will need to deploy the new version of the APIs. This version contains a schema with the OpenAPI specifications of the API's so that when you'll import them into the APIM, the endpoints will be automatically generated for you without the need of importing or manually adding them.

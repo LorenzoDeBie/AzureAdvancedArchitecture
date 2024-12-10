@@ -20,6 +20,14 @@ During this module you will also need the following PowerShell variables used pr
 - $cosmosDbAccount - name of your CosmosDB resource deployed in Module 1
 - $dbResourceGroup - name of your Database Resource Group deployed in Module 1
 
+## Architecture Diagram
+
+The diagram of the app with the deployed resources for this exercise is the following:
+
+![App Architecture Diagram](./images/Module5_Ex1.drawio.png)
+
+Until now, the Cosmos DB resource was available to public internet. After this exercise, it will only be accessible from the Private Endpoint inside the Virtual Network.
+
 ## Step 1: Create a Private Endpoint for CosmosDB
 
 You can create the Private Endpoint by following the commands provided in [Exercise1.ps1](./Exercise1.ps1).

@@ -9,7 +9,9 @@ $statsApi = "<stats-container-name>"
 
 $dConnection = "<DB-connection-string>"
 
-$ttl = "<data-time-to-live-seconds>"
+# The TTL(Time-To-Live) value is the time(in seconds) used to persist the cached data inside the database. You will change this value in a future module.
+
+$ttl = "<data-time-to-live-seconds>" # 300 - recommended default
 
 az containerapp create `
   --name $statsApi `

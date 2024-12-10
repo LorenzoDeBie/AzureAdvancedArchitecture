@@ -20,6 +20,13 @@ During this module you will also need the following PowerShell variables used pr
 - $gameContainerUrl - url of your Game API container
 - $apimUrl - endpoint for your Azure API Management resource(Gateway URL)
 
+## Architecture Diagram
+
+The diagram of the app with the deployed resources for this exercise is the following:
+
+![App Architecture Diagram](./images/Module8_Ex1.drawio.png)
+
+
 ## Step 1: Deploy an Azure Application Insights resource
 
 ### 1.1 Deploy a Log Analytics Workspace Resource and save its ID

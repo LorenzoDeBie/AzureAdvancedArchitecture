@@ -34,6 +34,17 @@ During this module you will also need the following PowerShell variables used pr
 
 If you don't have the PowerShell variables in your chosen terminal anymore, please make sure that you create them before starting this exercise.
 
+
+## Architecture Diagram
+
+The diagram of the app with the deployed resources for this exercise is the following:
+
+![App Architecture Diagram](./images/Module2_Ex1.drawio.png)
+
+Here, the Game API will act as middleware between the client apps(Bot API, Game API and Static Web App) and the Azure SignalR Service. Clients will send a request to the Game API and they will be redirected to the SignalR Service.
+
+[Read more about the internals of Azure SignalR](https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-concept-internals)
+
 ## Step 1: Create the Azure SignalR Service Resource
 
 To use SignalR in your applications, you need to first deploy an Azure SignalR Service so that the hub will be hosted on the cloud.

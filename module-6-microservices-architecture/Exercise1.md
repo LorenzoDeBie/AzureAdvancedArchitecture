@@ -25,6 +25,13 @@ During this module you will also need 7 of the PowerShell variables used previou
 - $gameContainerUrl -  URL for your Game Container API
 - $botContainerUrl - URL for your Bot Container API
 
+## Architecture Diagram
+
+The diagram of the app with the deployed resources for this exercise is the following:
+
+![App Architecture Diagram](./images/Module6_Ex1.drawio.png)
+
+
 ## Step 1: Create an Azure Key Vault
 
 Choose a name for your KeyVault and follow the commands from the .ps1 file
