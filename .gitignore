@@ -398,3 +398,6 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 /src/RockPaperScissorsAPI/local.settings.json
+
+
+github_pat.txt
